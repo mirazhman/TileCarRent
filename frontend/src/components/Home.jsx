@@ -18,7 +18,7 @@ const Home = () => {
        </div>
       </div>
     </div>
-    <section className='bg-cyan-300 '>
+    <section className=' bg-red-300'>
 
     </section>
     </>
