@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className="flex justify-between h-16">
           <div className="flex mx-16 gap-96">
             <div className="flex-shrink-0 items-center mt-4">
-              <Link  to="/" className="text-green-700 text-xl font-bold">TileCar</Link>
+              <Link  to="/" className="text-green-700 text-xl font-bold">TileCarRental</Link>
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
               <Link to="/" className="text-gray-700 hover:text-green-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
@@ -16,6 +16,9 @@ const NavBar = () => {
               </Link>
               <Link to="/cars" className="text-gray-700 hover:text-green-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Cars
+              </Link>
+              <Link to="/air-port" className="text-gray-700 hover:text-green-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+                Air Port Pickup
               </Link>
               <Link to="/wedding-car" className="text-gray-700 hover:text-green-600 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Wedding Car

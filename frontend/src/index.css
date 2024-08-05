@@ -11,3 +11,35 @@
   background-position: center;
   background-attachment: fixed;
 }
+.carpage-bg{
+  background-image: url('./assets/carpage-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 0%;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-car {
+  animation: moveRightToLeft 2s ease-out;
+}
+
+
+.eth-airport-bg{
+  background-image: url('./assets/ETH-airlines.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 0%;
+  background-attachment: fixed;
+}
