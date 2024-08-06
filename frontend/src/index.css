@@ -2,6 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Add the CSS variables here */
+:root {
+  --color-primary: #059DFF;
+  --color-primary-rgba: rgb(5, 157, 255);
+  --color-primary-alt: #059DFF;
+  --color-primary-light: #059DFF;
+  --color-primary-lightest: #059DFF;
+  --color-secondary: #FB5343;
+  --color-tertiary: #6549D5;
+  --color-tertiary-alt: #6549D5;
+  --color-pink: #E33FA1;
+  --color-black: #000000;
+  --color-pink-high: #6f0473;
+  --color-green: green;
+  --color-white: rgb(255, 255, 255);
+}
+
+.hover-gradient-effect:hover {
+  box-shadow: var(--shadow-primary);
+  -webkit-filter: brightness(125%);
+  filter: brightness(125%);
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.text-gradient {
+  background: linear-gradient(95deg,
+    var(--color-primary) 15%, 
+    var(--color-tertiary) 45%,
+    var(--color-pink) 75%,
+    var(--color-secondary) 100%) 95% / 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* Add the custom button styles */
+.altbtn {
+  color: var(--color-white);
+  font-size: 25px;
+  padding: 0 28px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  border-radius: 8px;
+  background-color: transparent;
+  background: linear-gradient(95deg,
+  var(--color-primary) 15%, 
+  var(--color-tertiary) 45%,
+  var(--color-pink) 75%,
+  var(--color-secondary) 100%) 95% / 200% 100%;
+  transition-duration: 300ms;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: var(--shadow-light);
+  display: inline-block;
+  height: 50px;
+  line-height: 47px;
+  letter-spacing: 0.5px;
+  width: auto;
+  transition: 0.4s;
+}
+
 
 
 /* custom css */
@@ -40,6 +105,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 0%;
+  background-position-y: 10%;
   background-attachment: fixed;
 }

@@ -3,6 +3,7 @@ import { heroCar, mapDirect, downArrow } from '../assets/images';
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
+import FeaturedCar from './FeaturedCar';
 
 const skillsData = [
   {
@@ -77,30 +78,37 @@ const Home = () => {
   return (
     <>
       <div className='flex custom-bg h-[550px]'>
-       <div className='w-[500px] ml-40 pt-40'>
+       <div className='w-auto ml-20 pt-40'>
           <p className='text-green-600 font-serif hover:text-red-700'>
             Tile Car Rental
           </p>
-          <h1 className='text-5xl text-green-900 font-mono'>
-            The Best Car Rent <br />in Hawassa
+          <h1 className='text-5xl w- text-gradient hover-gradient-effect font-mono'>
+            The Best Car Rent <br /> in Hawassa
           </h1>
           <p className='mt-6'>
             Daily or Weekly Car Rentals for Your Business or Visiting Travel Plans
           </p>
-          <div className='flex mt-20'>
-            <a className='flex items-center justify-center w-32 h-12 bg-green-600 p-4 px-6 hover:bg-green-800 text-white' href='#'>
+          <div className='flex p-10 '>
+            <a className='flex items-center justify-center  h-12 altbtn p-4 px-6 hover:bg-green-800 text-white' href='#'>
               Book Now
             </a>
-            <a className='flex items-center justify-center w-32 h-12 mx-20 bg-[#f57272] hover:bg-[#bd1f1f] p-4 text-white' href='#'>
-              CONTACT US
-            </a>
+            
           </div>
         </div>
-        <div className='relative top-56 '>
-          <img className={` ${animate ? 'animate-car' : ''}`} src={heroCar} alt='' />
+        <div className="relative w-[550px] z-10 top-48 left-16 mx-28">
+          
+          <img
+            className={`${animate ? 'animate-car' : ''} absolute  right-0`}
+            src={heroCar}
+           
+            alt="Hero Car"
+          />
         </div>
         
       </div>
+
+      <FeaturedCar /> 
+
       <section>
       <div className="map-container">
       <div className='flex flex-col '>

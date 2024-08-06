@@ -1,5 +1,5 @@
 
-import heroCar from "./hero.png"
+import heroCar from "./HeroCar.png"
 import car1 from "./car1.png"
 import car7 from "./car7.png"
 import car2 from "./car2.png"
@@ -14,7 +14,7 @@ import downArrow from "./down-arrow.png"
 import wedcar2 from "./Wedding-Car-2.jpg"
 import wedcar3 from "./wedding-car-3.webp"
 import wedcar4 from "./wedding-car-4.jpg"
-import wedcar5 from "./wedding-car-5.webp"
+import wedcar5 from "./HeroCar.png"
 import wedcar6 from "./wedding-car-6.jpeg"
 import EthAirlines from "./ETH-airlines.jpg"
 

@@ -4,8 +4,8 @@ const AirportPickup = () => {
   return (
     <>
     <div className=''>
-      {/* Hero Section */}
-      <div className="eth-airport-bg h-64 bg-black">
+      {/* Hero Section   */}
+      <div className="eth-airport-bg h-64">
       <h1 className="text-4xl font-bold text-[#ffffff] bg-gradient-to-r from-green-500 via-yellow-500 to-red-500  flex justify-center mx-80 relative top-40">Welcome to Vibrant Hawassa City</h1>
     </div>
     </div>
