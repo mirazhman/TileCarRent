@@ -4,6 +4,8 @@ import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
 import FeaturedCar from './FeaturedCar';
+import RequestSteps from './RequestSteps';
+import { Link } from 'react-router-dom';
 
 const skillsData = [
   {
@@ -77,21 +79,22 @@ const Home = () => {
 
   return (
     <>
-      <div className='flex custom-bg h-[550px]'>
+      <div className='flex justify-center custom-bg h-[550px]'>
        <div className='w-auto ml-20 pt-40'>
-          <p className='text-green-600 font-serif hover:text-red-700'>
+          <p className='text-[var(--color-primary)] font-serif'>
             Tile Car Rental
           </p>
-          <h1 className='text-5xl w- text-gradient hover-gradient-effect font-mono'>
+          <h1 className='text-5xl text-gradient font-mono'>
             The Best Car Rent <br /> in Hawassa
           </h1>
-          <p className='mt-6'>
+          <p className='mt-6 text-gray-800'>
             Daily or Weekly Car Rentals for Your Business or Visiting Travel Plans
           </p>
           <div className='flex p-10 '>
-            <a className='flex items-center justify-center  h-12 altbtn p-4 px-6 hover:bg-green-800 text-white' href='#'>
+            <Link to="/booking" className='flex items-center justify-center  h-12 mainbtn p-4 px-6 hover-gradient-effect text-white'>
               Book Now
-            </a>
+            </Link>
+            
             
           </div>
         </div>
@@ -108,11 +111,12 @@ const Home = () => {
       </div>
 
       <FeaturedCar /> 
+      <RequestSteps />
 
       <section>
       <div className="map-container">
       <div className='flex flex-col '>
-        <h2 className="text-2xl font-bold mb-4 p-6 pb-2 text-center">Our Location</h2>
+        <h2 className="text-2xl font-bold mb-4 p-6 pb-2 text-center text-[var(--color-primary)]">Our Location</h2>
         <img className='mb-4 mx-auto' src={downArrow} alt="" width="60" />
       </div>
       <div className= " flex justify-center relative h-96 pb-56 overflow-hidden">
@@ -138,46 +142,47 @@ const Home = () => {
           <div className="pb-12">
             <h1
               data-aos="fade-up"
-              className="text-3xl font-semibold text-center sm:text-4xl font-serif"
+              className="text-3xl font-semibold text-gradient text-center sm:text-4xl font-serif"
             >
               Why Choose Us
             </h1>
           </div>
           <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-4">
             {skillsData.map((skill) => (
-              <div
-                key={skill.name}
-                data-aos="fade-up"
-                data-aos-delay={skill.aosDelay}
-                className=" m-4 bg-[#73d084] text-center group sm:space-y-6 p-4 sm:py-16 duration-300 text-white hover:text-black rounded-lg"
-              >
-                <div className="grid place-items-center">{skill.icon}</div>
-                <h1 className="text-2xl font-bold">{skill.name}</h1>
-                <p>{skill.description}</p>
-                <a
-                  href={skill.link}
-                  className="inline-block text-lg font-semibold py-3 text-primary group-hover:text-black duration-300"
-                >
-                  Learn more
-                </a>
-              </div>
+             <div
+             key={skill.name}
+             data-aos="fade-up"
+             data-aos-delay={skill.aosDelay}
+             className="m-4 bg-[#ffffff] text-center group sm:space-y-6 p-4 sm:py-16 duration-300  rounded-lg gradient-border"
+           >
+             <div className="grid place-items-center">{skill.icon}</div>
+             <h1 className="text-2xl font-bold text-[var(--color-primary)]">{skill.name}</h1>
+             <p>{skill.description}</p>
+             <a
+               href={skill.link}
+               className="inline-block text-lg font-semibold py-3 text-primary text-gradient duration-300"
+             >
+               Learn more
+             </a>
+           </div>
+           
             ))}
           </div>
         </div>
       </div>
 
       <span id="about"></span>
-      <div className="py-14 sm:pb-24">
+      <div className="flex justify-center py-14 sm:pb-24">
         <div className="container">
           {/* Header */}
           <div className="space-y-4 pb-12">
             <p
               data-aos="fade-up"
-              className="text-3xl font-semibold text-center sm:text-4xl font-serif"
+              className="text-3xl font-semibold text-center text-gradient sm:text-4xl font-serif"
             >
               What Our Clients Say About Us
             </p>
-            <p data-aos="fade-up" className="text-center sm:px-44">
+            <p data-aos="fade-up" className="text-center text-gray-600 sm:px-44">
             As the premier car rental service in Hawassa, Tile Car Rental offers unparalleled 
             benefits that make us the top choice for all your transportation needs. 
             Here's why you should choose us
@@ -187,22 +192,23 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-black dark:text-white">
             {testimonialData.map((skill) => (
               <div
-                key={skill.name}
-                data-aos="fade-up"
-                data-aos-delay={skill.aosDelay}
-                className="card text-center group space-y-3 sm:space-y-6 p-4 sm:py-12 dark:bg-white/20 bg-gray-100 duration-300  rounded-lg "
-              >
-                <div className="grid place-items-center ">
-                  <img
-                    src="https://picsum.photos/200"
-                    alt=""
-                    className="rounded-full w-20 h-20"
-                  />
-                </div>
-                <div className="text-2xl">⭐⭐⭐⭐⭐</div>
-                <p>{skill.description}</p>
-                <p className="text-center font-semibold">{skill.name}</p>
+              key={skill.name}
+              data-aos="fade-up"
+              data-aos-delay={skill.aosDelay}
+              className="card text-center justify-center group space-y-3 sm:space-y-6 p-4 sm:py-12 dark:bg-white/20 bg-gray-100 duration-300 rounded-lg"
+            >
+              <div className="grid place-items-center">
+                <img
+                  src="https://picsum.photos/200"
+                  alt=""
+                  className="rounded-full w-20 h-20"
+                />
               </div>
+              <div className="text-2xl">⭐⭐⭐⭐⭐</div>
+              <p>{skill.description}</p>
+              <p className="text-center text-[var(--color-primary)] font-semibold">{skill.name}</p>
+            </div>
+            
             ))}
           </div>
         </div>

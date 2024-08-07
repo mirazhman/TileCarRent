@@ -18,10 +18,13 @@ import wedcar5 from "./HeroCar.png"
 import wedcar6 from "./wedding-car-6.jpeg"
 import EthAirlines from "./ETH-airlines.jpg"
 
+import carKey from "./carKey.png"
+import chooseCar from "./chooseCar.png"
+import done from "./Done.png"
+import orderCar from "./OrderCar.png"
 
 
 
 
 
-
-export {EthAirlines, heroCar, car1, car2, car3, car4, car5, car6, car7, booking, mapDirect, downArrow,wedcar2, wedcar3, wedcar4, wedcar5, wedcar6};
+export {carKey,chooseCar,done, orderCar, EthAirlines, heroCar, car1, car2, car3, car4, car5, car6, car7, booking, mapDirect, downArrow,wedcar2, wedcar3, wedcar4, wedcar5, wedcar6};

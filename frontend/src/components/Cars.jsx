@@ -20,7 +20,7 @@ const Cars = () => {
           <li><strong>Car Type:</strong> SUV</li>
         </ul>
         <div className="px-6 pt-4 pb-2">
-        <a href="#" className="inline-block bg-green-600 hover:bg-green-800 text-white text-center py-2 px-4 rounded">Book Now</a>
+        <a href="#" className="inline-block hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-white text-center py-2 px-4 rounded">Book Now</a>
       </div>
       </div>
     </div>
@@ -34,7 +34,7 @@ const Cars = () => {
           <li><strong>Car Type:</strong> SUV</li>
         </ul>
         <div className="px-6 pt-4 pb-2">
-        <a href="#" className="inline-block bg-green-600 hover:bg-green-800 text-white text-center py-2 px-4 rounded">Book Now</a>
+        <a href="#" className="inline-block hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-white text-center py-2 px-4 rounded">Book Now</a>
       </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ const Cars = () => {
           <li><strong>Car Type:</strong> SUV</li>
         </ul>
         <div className="px-6 pt-4 pb-2">
-        <a href="#" className="inline-block bg-green-600 hover:bg-green-800 text-white text-center py-2 px-4 rounded">Book Now</a>
+        <a href="#" className="inline-block hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-white text-center py-2 px-4 rounded">Book Now</a>
       </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ const Cars = () => {
           <li><strong>Car Type:</strong> SUV</li>
         </ul>
         <div className="px-6 pt-4 pb-2">
-        <a href="#" className="inline-block bg-green-600 hover:bg-green-800 text-white text-center py-2 px-4 rounded">Book Now</a>
+        <a href="#" className="inline-block hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-white text-center py-2 px-4 rounded">Book Now</a>
       </div>
       </div>
     </div>
@@ -76,7 +76,7 @@ const Cars = () => {
           <li><strong>Car Type:</strong> SUV</li>
         </ul>
         <div className="px-6 pt-4 pb-2">
-        <a href="#" className="inline-block bg-green-600 hover:bg-green-800 text-white text-center py-2 px-4 rounded">Book Now</a>
+        <a href="#" className="inline-block hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-white text-center py-2 px-4 rounded">Book Now</a>
       </div>
       </div>
     </div>
@@ -90,7 +90,7 @@ const Cars = () => {
           <li><strong>Car Type:</strong> SUV</li>
         </ul>
         <div className="px-6 pt-4 pb-2">
-        <a href="#" className="inline-block bg-green-600 hover:bg-green-800 text-white text-center py-2 px-4 rounded">Book Now</a>
+        <a href="#" className="inline-block hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 text-white text-center py-2 px-4 rounded">Book Now</a>
       </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Booking = () => {
     <section className='flex justify-center'>
       
       <div className='max-w-96 mt-8 text-white '>
-        <form onSubmit={handleSubmit} className="shadow-md rounded px-8 pt-6  bg-green-400 pb-8 mb-4 max-w-lg mx-auto">
+        <form onSubmit={handleSubmit} className="shadow-md rounded px-8 pt-6 bg-gradient-to-r from-blue-500 to-purple-600 pb-8 mb-4 max-w-lg mx-auto">
         <h2 className="text-2xl font-bold mb-6 text-center">Book a Car</h2>
         
         {/* Name */}
@@ -108,16 +108,19 @@ const Booking = () => {
         {/* Submit Button */}
         <div className="flex items-center justify-center">
           <button
-            className="bg-[#2f2e2e] hover:bg-green-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="mainbtn hover:bg-green-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
-            Submit Booking Request
+            Submit Request
           </button>
         </div>
       </form>
       </div>
       <div>
-        <img src={booking} alt="" width="700" height="400" />
+        <div className='relative top-16 left-20'>
+          <h3 className='text-gradient text-3xl'>Fill Up The Form Below And We Will Take Care Of The Rest</h3>
+        </div>
+          <img src={booking} alt="" width="700" height="400" />
       </div>
     </section>
   );

@@ -6,14 +6,14 @@ const AirportPickup = () => {
     <div className=''>
       {/* Hero Section   */}
       <div className="eth-airport-bg h-64">
-      <h1 className="text-4xl font-bold text-[#ffffff] bg-gradient-to-r from-green-500 via-yellow-500 to-red-500  flex justify-center mx-80 relative top-40">Welcome to Vibrant Hawassa City</h1>
+      <h1 className="text-6xl font-bold text-[#770d0d] flex justify-center mx-80 relative top-32">Welcome to Vibrant Hawassa City</h1>
     </div>
     </div>
 
      {/* Form Section */}
      <div className=" mx-auto px-4 py-10 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">
-        <h2 className="text-3xl font-bold text-center mb-2 text-white">Send Us Request</h2>
-        <h3 className="text-2xl font-bold text-center mb-8 text-white">We Will Pick you up</h3>
+        <h2 className="text-3xl font-bold text-center mb-2 text-white text-[var(--color-primary)]">Send Us Request</h2>
+        <h3 className="text-2xl font-bold text-center mb-8 text-white text-[var(--color-primary)]">We Will Pick you up</h3>
 
         <form className="max-w-lg mx-auto shadow-md rounded-lg p-8">
           <div className="mb-6">
@@ -54,7 +54,7 @@ const AirportPickup = () => {
           </div>
           <button
             type="submit"
-            className="w-52 text-center flex justify-center mx-auto bg-green-600 text-white py-3 rounded-lg hover:bg-green-700"
+            className="w-52 text-center flex justify-center mx-auto border border-[#fff] text-white py-3 rounded-lg hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500"
           >
             Submit
           </button>

@@ -34,7 +34,7 @@ const About = () => {
               We welcome you to Hawassa and invite you to experience the convenience and comfort of Tile Car Rental. 
               Let us be your transportation partner as you discover the wonders of our city and create lasting memories.
               </p>
-              <button data-aos="fade-up" className="bg-green-600 text-white p-2 px-4 hover:bg-green-700 button-outline">
+              <button data-aos="fade-up" className="subbtn scale-x-75 text-2xl text-white p-2 px-4 hover:bg-green-700 button-outline">
                 Book Now
               </button>
             </div>
