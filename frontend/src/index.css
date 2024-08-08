@@ -100,10 +100,12 @@
   background-attachment: fixed;
 }
 .carpage-bg{
+  
   background-image: url('./assets/carpage-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: 0%;
+
   background-blend-mode: darken;
   background-attachment: fixed;
 }
@@ -129,6 +131,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 10%;
+  background-attachment: fixed;
+}
+.eth-airport-mbbg{
+  background-image: url('./assets/ETmb.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-position-y: 12%;
   background-attachment: fixed;
 }
 /* Gradient border for why choose us */

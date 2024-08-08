@@ -21,7 +21,7 @@ const App = () => {
         <SideNav />
         <main className="flex-1 p-6 bg-gray-100 overflow-y-auto">
           <Routes>
-            <Route path="/main-dashboard" element={<MainDashboard />} />
+            <Route path="/" element={<MainDashboard />} />
             <Route path="/rentals" element={<Rentals />} />
             <Route path="/car-section" element={<CarSection />} />
             <Route path="/customer-section" element={<CustomerSection />} />

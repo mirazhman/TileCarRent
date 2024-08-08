@@ -3,7 +3,7 @@ import { wedcar2, wedcar3, wedcar4, wedcar6 } from '../assets/images';
 const FeaturedCar = () => {
   return (
     <div>
-        <div className="container mx-auto py-16">
+        <div className="container px-4 lg:px-0 mx-auto py-16">
         <h2 className="text-3xl font-bold text-center mb-10 text-gradient ">Come With Hot Offers</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Wedding Car 1 */}

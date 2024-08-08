@@ -3,7 +3,7 @@ import React from 'react';
 const MiniNavBar = () => {
   return (
     <div className="bg-gray-800 text-white text-sm py-2">
-      <div className="container mx-auto flex justify-between items-center px-4">
+      <div className="container mx-auto lg:flex lg:justify-between items-center px-4">
         <div className="flex items-center space-x-4">
           <div className="flex items-center">
             <span className="material-icons text-[#a01bcd]">email</span>

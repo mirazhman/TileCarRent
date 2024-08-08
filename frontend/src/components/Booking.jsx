@@ -14,9 +14,9 @@ const Booking = () => {
   };
 
   return (
-    <section className='flex justify-center'>
+    <section className='flex flex-col-reverse lg:flex-row justify-center'>
       
-      <div className='max-w-96 mt-8 text-white '>
+      <div className='mx-4 lg:max-w-96 mt-8 text-white '>
         <form onSubmit={handleSubmit} className="shadow-md rounded px-8 pt-6 bg-gradient-to-r from-blue-500 to-purple-600 pb-8 mb-4 max-w-lg mx-auto">
         <h2 className="text-2xl font-bold mb-6 text-center">Book a Car</h2>
         
@@ -78,8 +78,8 @@ const Booking = () => {
           <option value="Truck">PickUp</option>
         </select>
       </div>
-        
-        {/* Start Date */}
+        <div className='flex gap-2'>
+          {/* Start Date */}
         <div className="mb-4">
           <label className="block text-white text-sm font-bold mb-2" htmlFor="startDate">
             Start Date
@@ -104,11 +104,12 @@ const Booking = () => {
             placeholderText="Select return date"
           />
         </div>
+        </div>
 
         {/* Submit Button */}
         <div className="flex items-center justify-center">
           <button
-            className="mainbtn hover:bg-green-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="mainbtn mt-6 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
             Submit Request
@@ -118,9 +119,12 @@ const Booking = () => {
       </div>
       <div>
         <div className='relative top-16 left-20'>
-          <h3 className='text-gradient text-3xl'>Fill Up The Form Below And We Will Take Care Of The Rest</h3>
+          <h3 className='text-gradient hidden lg:block text-2xl'>Fill Up The Form Below And We Will Take Care Of The Rest</h3>
         </div>
           <img src={booking} alt="" width="700" height="400" />
+          <div className='-mt-6 mx-4'>
+           <h3 className='text-gradient text-2xl lg:hidden lg:text-3xl'>Fill Up The Form Below And We Will Take Care Of The Rest</h3>
+        </div>
       </div>
     </section>
   );

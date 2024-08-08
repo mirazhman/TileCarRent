@@ -15,7 +15,7 @@ const WeddingCar = () => {
         <h2 className="text-3xl text-gradient font-bold text-center mb-10">Our Wedding Cars</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Wedding Car 1 */}
-          <div className="shadow-md rounded-lg overflow-hidden">
+          <div className="mx-4 shadow-md rounded-lg overflow-hidden">
             <img
               src={wedcar2} // Replace with actual car image URL
               alt="Wedding Car 1"
@@ -31,7 +31,7 @@ const WeddingCar = () => {
           </div>
 
           {/* Wedding Car 2 */}
-          <div className=" shadow-md rounded-lg overflow-hidden">
+          <div className="mx-4 shadow-md rounded-lg overflow-hidden">
             <img
               src={wedcar3}
               alt="Wedding Car 2"
@@ -47,7 +47,7 @@ const WeddingCar = () => {
           </div>
 
           {/* Wedding Car 3 */}
-          <div className=" shadow-md rounded-lg overflow-hidden">
+          <div className="mx-4 shadow-md rounded-lg overflow-hidden">
             <img
               src={wedcar4}
               alt="Wedding Car 3"
@@ -63,7 +63,7 @@ const WeddingCar = () => {
           </div>
 
           {/* Wedding Car 4 */}
-          <div className="b shadow-md rounded-lg overflow-hidden">
+          <div className="mx-4 shadow-md rounded-lg overflow-hidden">
             <img
               src={wedcar6}
               alt="Wedding Car 4"

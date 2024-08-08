@@ -9,7 +9,7 @@ const SideNav = () => {
         <nav>
           <ul>
             <li className="mb-2">
-              <Link to="/main-dashboard" className="hover:bg-gray-700 block py-2 px-4 rounded">
+              <Link to="/" className="hover:bg-gray-700 block py-2 px-4 rounded">
                 Dashboard
               </Link>
             </li>

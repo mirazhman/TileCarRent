@@ -1,1 +1,3 @@
 bg-gradient-to-r from-red-500 to-pink-600
+
+i am back with Tile Car Rental Dashboard. the main dashboard have a parent container Section and inside section the first div element contains "Available cars, Customers, Transaction and Completed Rentals" align them them horizontally using flex. the second div need to contains two parent div and inside it have "New Cars and New Customers" align them horizontally

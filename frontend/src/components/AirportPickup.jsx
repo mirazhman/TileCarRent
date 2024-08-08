@@ -5,8 +5,11 @@ const AirportPickup = () => {
     <>
     <div className=''>
       {/* Hero Section   */}
-      <div className="eth-airport-bg h-64">
-      <h1 className="text-6xl font-bold text-[#770d0d] flex justify-center mx-80 relative top-32">Welcome to Vibrant Hawassa City</h1>
+      <div className="h-56 lg:h-64 hidden lg:block eth-airport-bg">
+      <h1 className="text-2xl lg:text-6xl font-bold text-[#e60b09] mx-4 lg:text-[#770d0d] flex justify-center lg:mx-80 relative top-40 lg:top-32">Welcome to Vibrant Hawassa City</h1>
+    </div>
+    <div className="lg:hidden eth-airport-mbbg h-56 lg:h-64">
+      <h1 className="text-2xl lg:text-6xl font-bold text-[#e60b09] mx-4 lg:text-[#770d0d] flex justify-center lg:mx-80 relative top-40 lg:top-32">Welcome to Vibrant Hawassa City</h1>
     </div>
     </div>
 

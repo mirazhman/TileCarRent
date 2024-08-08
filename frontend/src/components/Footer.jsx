@@ -5,30 +5,32 @@ const Footer = () => {
 
         <footer className="bg-gray-900 text-white py-10">
         <div className="container mx-auto px-6 lg:px-8">
-            <div className="flex flex-col lg:flex-row justify-between">
+            <div className="flex flex-col lg:flex-row lg:justify-between">
             {/* Logo and Description */}
-            <div className="w-60 mb-6 lg:mb-0">
+            <div className="w-60 mb-6 mx-auto lg:mb-0">
                 <h2 className="text-2xl font-bold">Tile Car Rental</h2>
                 <p className="mt-4 text-gray-400">
-                The best car rental service in Hawassa. We offer a wide range of vehicles to suit your needs, whether you're traveling for business or leisure.
+                The best car rental service in Hawassa. We offer a wide range of
+                 vehicles to suit your needs, whether you're traveling for business
+                  or leisure.
                 </p>
             </div>
 
             {/* Navigation Menu */}
-            <div className="mb-6 lg:mb-0">
+            <div className="mb-6 mx-auto lg:mb-0">
                 <h3 className="text-lg font-semibold">Navigation</h3>
                 <ul className="mt-4 space-y-2">
                 <li><a href="#" className="hover:text-[#a01bcd]">Home</a></li>
                 <li><a href="#" className="hover:text-[#a01bcd]">Our Cars</a></li>
-                <li><a href="#" className="hover:text-[#a01bcd]">Pricing</a></li>
+                <li><a href="#" className="hover:text-[#a01bcd]">wedding Cars</a></li>
                 <li><a href="#" className="hover:text-[#a01bcd]">About Us</a></li>
-                <li><a href="#" className="hover:text-[#a01bcd]">Contact</a></li>
+                <li><a href="#" className="hover:text-[#a01bcd]">Airport pickup</a></li>
                 </ul>
             </div>
 
             {/* Contact Information */}
-            <div>
-                <h3 className="text-lg font-semibold">Contact Us</h3>
+            <div className='mx-auto'>
+                <h3 className="text-lg font-semibold text-center underline underline-offset-4">Contact Us</h3>
                 <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
                     <svg className="w-5 h-5 mr-2 text-[#a01bcd]" fill="currentColor" viewBox="0 0 24 24">
@@ -52,10 +54,11 @@ const Footer = () => {
             </div>
             </div>
 
-            <div className="mt-8 text-center text-gray-500">
+            
+        </div>
+        <div className="mt-8 text-center text-gray-500">
             &copy; 2024 Tile Car Rental. All rights reserved.
             </div>
-        </div>
         </footer>
   )
 }
