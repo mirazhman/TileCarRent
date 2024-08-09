@@ -3,7 +3,7 @@ import  {car7} from '../assets/images'
 
 const About = () => {
   return (
-    <div className="lg:px-10 mt-8 flex flex-col lg:flex-row gap-4 w-fullh-[600px]">
+    <div className="lg:px-10 mt-8 flex flex-col justify-center mx-auto lg:flex-row gap-4 w-fullh-[600px]">
           <div className="lg:w-1/2">
             <img
               src={car7}
