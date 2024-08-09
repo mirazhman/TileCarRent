@@ -24,13 +24,13 @@ const Home = () => {
           <p className='text-[var(--color-primary)] font-serif'>
             Tile Car Rental
           </p>
-          <h1 className='text-3xl lg:text-5xl text-gradient font-mono'>
+          <h1 className='text-3xl lg:text-5xl text-gradient uppercase font-mono'>
             The Best Car Rent <br /> in Hawassa
           </h1>
           <p className='mt-4 lg:mt-6 text-gray-800'>
             Daily or Weekly Car Rentals for Your Business or Visiting Travel Plans
           </p>
-          <div className='flex pt-4 lg:p-10 '>
+          <div className='flex pt-4 lg:pt-10 '>
             <Link to="/booking" className='flex items-center justify-center h-12 mainbtn p-4 px-6 hover-gradient-effect text-white'>
               Book Now
             </Link>

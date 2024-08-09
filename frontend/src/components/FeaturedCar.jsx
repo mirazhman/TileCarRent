@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { carList1, carList2, carList3, carList4, carList5, carList6, carList7, carList8 } from '../assets/images';
 const FeaturedCar = () => {
   return (
@@ -9,16 +10,16 @@ const FeaturedCar = () => {
           {/* Wedding Car 1 */}
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <img
-              src={carList1} // Replace with actual car image URL
+              src={carList1}
               alt="Wedding Car 1"
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2 text-[var(--color-primary)]">Luxury Sedan</h3>
               <p className="text-gray-700 mb-4">Price: 1000 Br/day</p>
-              <button className="hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 scale-75 text-2xl  text-center text-white py-2 px-4 rounded">
+              <Link to="/booking" className="hover-gradient-effect bg-[#3c096c] scale-75 text-xl  text-center text-white py-2 px-4 rounded">
                 Book Now
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -31,11 +32,11 @@ const FeaturedCar = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold mb-2 text-[var(--color-primary)]">Classic Convertible</h3>
+              <h3 className="text-lg font-bold mb-2 text-[var(--color-primary)] uppercase">Classic Convertible</h3>
               <p className="text-gray-700 mb-4">Price: 1000 Br/day</p>
-              <button className="hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 scale-75 text-2xl text-white py-2 px-4 rounded">
+              <Link to="/booking" className="hover-gradient-effect bg-[#3c096c] scale-75 text-xl text-white py-2 px-4 rounded">
                 Book Now
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -49,9 +50,9 @@ const FeaturedCar = () => {
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2 text-[var(--color-primary)]">Royal Carriage </h3>
               <p className="text-gray-700 mb-4">Price: 1000 Br/day</p>
-              <button className="hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 scale-75 text-2xl text-white py-2 px-4 rounded">
+              <Link to="/booking" className="hover-gradient-effect bg-[#3c096c] scale-75 text-xl text-white py-2 px-4 rounded">
                 Book Now
-              </button>
+              </Link>
             </div>
           </div>
            {/* Wedding Car 3 */}
@@ -64,9 +65,9 @@ const FeaturedCar = () => {
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2 text-[var(--color-primary)]">Royal Carriage </h3>
               <p className="text-gray-700 mb-4">Price: 1000 Br/day</p>
-              <button className="hover-gradient-effect bg-gradient-to-r from-yellow-500 via-red-500 to-pink-500 scale-75 text-2xl text-white py-2 px-4 rounded">
+              <Link to="/booking" className="hover-gradient-effect bg-[#3c096c] scale-75 text-xl text-white py-2 px-4 rounded">
                 Book Now
-              </button>
+              </Link>
             </div>
           </div>
          

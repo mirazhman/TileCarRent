@@ -29,5 +29,4 @@ import carList8 from "./carList8.jpeg"
 
 
 
-export {carList1, carList2, carList3, carList4, carList5, carList6, carList7, carList8,
-    carKey,chooseCar,done, orderCar, EthAirlines, heroCar, car1, car2, car3, car4, car5, car6, car7, booking, mapDirect, downArrow,wedcar2, wedcar3, wedcar4, wedcar5, wedcar6};
+export {carList1, carList2, carList3, carList4, carList5, carList6, carList7, carList8,carKey,chooseCar,done, orderCar, EthAirlines, heroCar, car7, booking, mapDirect, downArrow,wedcar2, wedcar3, wedcar4, wedcar5, wedcar6};

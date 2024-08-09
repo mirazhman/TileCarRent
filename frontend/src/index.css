@@ -4,15 +4,10 @@
 
 /* Add the CSS variables here */
 :root {
-  --color-primary: #059DFF;
-  --color-primary-rgba: rgb(5, 157, 255);
-  --color-primary-alt: #059DFF;
-  --color-primary-light: #059DFF;
-  --color-primary-lightest: #059DFF;
-  --color-secondary: #FB5343;
-  --color-tertiary: #6549D5;
-  --color-tertiary-alt: #6549D5;
-  --color-pink: #E33FA1;
+  --color-primary: #3c096c;
+  --color-secondary: #4cc9f0;
+  --color-tertiary: #5a189a;
+  --color-pink: #5a189a;
   --color-black: #000000;
   --color-pink-high: #6f0473;
   --color-green: green;
@@ -30,8 +25,8 @@
 .text-gradient {
   background: linear-gradient(95deg,
     var(--color-primary) 15%, 
-    var(--color-tertiary) 45%,
-    var(--color-pink) 75%,
+    var(--color-pink) 45%,
+    var(--color-tertiary) 65%,
     var(--color-secondary) 100%) 95% / 200% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,7 +62,7 @@
   transition: 0.4s;
 }
 
-.subbtn {
+/* .subbtn {
   color: var(--color-white);
   border-style: solid;
   border-width: 2px;
@@ -90,7 +85,7 @@
   letter-spacing: 0.5px;
   width: auto;
   transition: 0.4s;
-}
+} */
 
 /* custom css */
 .custom-bg{

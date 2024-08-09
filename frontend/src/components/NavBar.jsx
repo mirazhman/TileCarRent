@@ -13,30 +13,30 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-[#ded9d9] shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-[#ded9d9] flex justify-center shadow-md mx-auto">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex mx-16 gap-64">
             <div className="flex-shrink-0 items-center mt-4">
               <Link to="/" className="text-gradient text-3xl font-bold">TileCarRental</Link>
             </div>
             <div className="hidden md:flex gap-10">
-              <Link to="/" className="text-gray-700 hover:text-[var(--color-primary)] inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              <Link to="/" className="text-gray-700 hover:text-[var(--color-secondary)] uppercase inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Home
               </Link>
-              <Link to="/cars" className="text-gray-700 hover:text-[var(--color-primary)] inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              <Link to="/cars" className="text-gray-700 hover:text-[var(--color-secondary)] uppercase inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Cars
               </Link>
-              <Link to="/air-port" className="text-gray-700 hover:text-[var(--color-primary)] inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              <Link to="/air-port" className="text-gray-700 hover:text-[var(--color-secondary)] uppercase inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Air Port Pickup
               </Link>
-              <Link to="/wedding-car" className="text-gray-700 hover:text-[var(--color-primary)] inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              <Link to="/wedding-car" className="text-gray-700 hover:text-[var(--color-secondary)] uppercase inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Wedding Car
               </Link>
-              <Link to="/booking" className="text-gray-700 hover:text-[var(--color-primary)] inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              <Link to="/booking" className="text-gray-700 hover:text-[var(--color-secondary)] uppercase inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 Booking
               </Link>
-              <Link to="/aboutus" className="text-gray-700 hover:text-[var(--color-primary)] inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              <Link to="/aboutus" className="text-gray-700 hover:text-[var(--color-secondary)] uppercase inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
                 About
               </Link>
             </div>
@@ -44,7 +44,7 @@ const NavBar = () => {
           <div className="-mr-2 flex items-center md:hidden">
             <button 
               type="button" 
-              className="bg-gray-100 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-[var(--color-primary)] hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-green-600"
+              className="bg-gray-100 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-[var(--color-secondary)] uppercase hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-green-600"
               onClick={toggleMenu}
             >
               <span className="sr-only">Open main menu</span>
@@ -63,35 +63,35 @@ const NavBar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link 
             to="/" 
-            className="text-gray-700 hover:text-[var(--color-primary)] block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-700 hover:text-[var(--color-secondary)] uppercase block px-3 py-2 rounded-md text-base font-medium"
             onClick={closeMenu}
           >
             Home
           </Link>
           <Link 
             to="/cars" 
-            className="text-gray-700 hover:text-[var(--color-primary)] block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-700 hover:text-[var(--color-secondary)] uppercase block px-3 py-2 rounded-md text-base font-medium"
             onClick={closeMenu}
           >
             Cars
           </Link>
           <Link 
             to="/wedding-car" 
-            className="text-gray-700 hover:text-[var(--color-primary)] block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-700 hover:text-[var(--color-secondary)] uppercase block px-3 py-2 rounded-md text-base font-medium"
             onClick={closeMenu}
           >
             Wedding Car
           </Link>
           <Link 
             to="/booking" 
-            className="text-gray-700 hover:text-[var(--color-primary)] block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-700 hover:text-[var(--color-secondary)] uppercase block px-3 py-2 rounded-md text-base font-medium"
             onClick={closeMenu}
           >
             Booking
           </Link>
           <Link 
             to="/aboutus" 
-            className="text-gray-700 hover:text-[var(--color-primary)] block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-700 hover:text-[var(--color-secondary)] uppercase block px-3 py-2 rounded-md text-base font-medium"
             onClick={closeMenu}
           >
             About

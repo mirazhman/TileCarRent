@@ -6,16 +6,16 @@ const MiniNavBar = () => {
       <div className="container mx-auto lg:flex lg:justify-between items-center px-4">
         <div className="flex items-center space-x-4">
           <div className="flex items-center">
-            <span className="material-icons text-[#a01bcd]">email</span>
+            <span className="material-icons text-[#5a189a]">email</span>
             <span className="ml-2">info@tilecarrental.com</span>
           </div>
           <div className="flex items-center">
-            <span className="material-icons text-[#a01bcd]">phone</span>
+            <span className="material-icons text-[#5a189a]">phone</span>
             <span className="ml-2">+251-915 71 52 75</span>
           </div>
         </div>
         <div className="flex items-center">
-          <span className="material-icons text-[#a01bcd]">location_on</span>
+          <span className="material-icons text-[#5a189a]">location_on</span>
           <span className="ml-2">Hawassa, Ethiopia</span>
         </div>
       </div>

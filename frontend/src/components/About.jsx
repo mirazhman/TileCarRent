@@ -1,5 +1,6 @@
 import React from "react";
 import  {car7} from '../assets/images'
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
               <h1 className="text-3xl sm:text-4xl text-center mb-4 text-[var(--color-primary)] font-bold font-serif">
                 About us
               </h1>
-              <p className="leading-8 text-xl text-justify">
+              <p className="leading-8 p-8 text-justify">
               Tile Car Rental is a leading car rental service located in the vibrant city of Hawassa, Ethiopia.
                Established with a mission to provide our customers with a seamless and enjoyable transportation experience, 
                we offer a wide range of vehicles to cater to all your needs.
@@ -29,9 +30,9 @@ const About = () => {
               We welcome you to Hawassa and invite you to experience the convenience and comfort of Tile Car Rental. 
               Let us be your transportation partner as you discover the wonders of our city and create lasting memories.
               </p>
-              <button className="subbtn scale-x-75 text-2xl text-white mx-20  lg:mx-40 m-6 button-outline">
+              <Link to="/booking" className="mainbtn scale-x-75 text-2xl text-white mx-20  lg:mx-40 m-6 button-outline">
                 Book Now
-              </button>
+              </Link>
             </div>
         </div>
   );

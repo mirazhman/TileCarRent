@@ -109,7 +109,7 @@ const Booking = () => {
         {/* Submit Button */}
         <div className="flex items-center justify-center">
           <button
-            className="mainbtn mt-6 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-gray-900 hover:bg-[#410a49] mt-6 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
             Submit Request
